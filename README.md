@@ -4,6 +4,7 @@
 ```php
 
 <?php
+include 'ftp.php';
 
 //示例：
 $set	= array(
