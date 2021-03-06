@@ -1,7 +1,11 @@
 # FTP-CLASS
 是一个可以支持FTP与FTPS类，方便使用
 
-示例：
+```php
+
+<?php
+
+//示例：
 $set	= array(
 		'host'			=> '127.0.0.1',			//服务器
 		'port'			=> '21',				    //端口
@@ -46,3 +50,4 @@ $ftp->rm_dir('test/1111');
 
 //关闭链接
 $ftp->close();
+```
