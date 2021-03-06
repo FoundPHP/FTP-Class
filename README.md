@@ -7,15 +7,15 @@
 
 //示例：
 $set	= array(
-		'host'			=> '127.0.0.1',			//服务器
-		'port'			=> '21',				    //端口
-		'ssh'			=> 1,				    	    //ssh 1启动，0关闭
-		'username'		=> 'test',				//帐号
-		'password'		=> '123123',			//密码
-		'passive'		=> 1,					      //被动模式：1启动，0关闭
-		'timeout'		=> '3',					    //超时时长
-		'language'		=> 'cn',				  //语言包
-		'logs'			=> 'ftp_log.txt',		//日志
+	'host'			=> '127.0.0.1',			//服务器
+	'port'			=> '21',			//端口
+	'ssh'			=> 1,				//ssh 1启动，0关闭
+	'username'		=> 'test',			//帐号
+	'password'		=> '123123',			//密码
+	'passive'		=> 1,				//被动模式：1启动，0关闭
+	'timeout'		=> '3',				//超时时长
+	'language'		=> 'cn',			//语言包
+	'logs'			=> 'ftp_log.txt',		//日志
 );
 
 
